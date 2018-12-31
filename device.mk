@@ -14,6 +14,11 @@
 # limitations under the License.
 #
 
+# Only include Shield apps for first party targets
+ifneq ($(filter $(word 2,$(subst _, ,$(TARGET_PRODUCT))), sif sif_tab),)
+include device/nvidia/shield-common/shield.mk
+endif
+
 TARGET_TEGRA_CAMERA ?= none
 TARGET_TEGRA_DOLBY  ?= video
 
