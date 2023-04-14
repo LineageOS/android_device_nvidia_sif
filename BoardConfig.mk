@@ -15,3 +15,6 @@
 #
 
 include device/nvidia/foster/BoardConfig.mk
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE += sif
