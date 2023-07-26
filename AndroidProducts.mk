@@ -16,5 +16,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_sif.mk \
-    $(LOCAL_DIR)/lineage_sif.mk \
-    $(LOCAL_DIR)/twrp_sif.mk
+    $(LOCAL_DIR)/lineage_sif.mk
